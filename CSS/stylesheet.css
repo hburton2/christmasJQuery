@@ -1,0 +1,51 @@
+@font-face {
+    font-family: flags;
+    src: url(fonts/flags.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cc0000;
+}
+
+canvas {
+    display: inline;
+    position: fixed;
+    pointer-events:none;
+}
+
+#christmas {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 15px;
+    font-family: flags;
+    color: #008800;
+    font-size: 120px;
+    
+}
+
+#random_player {
+    width: 960px;
+    height: 540px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#video {
+    width: 960px;
+    height: 540px;
+    border: none;
+}
+
+#titles {
+   text-align: center;
+   font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+    font-size: 40px;
+}
